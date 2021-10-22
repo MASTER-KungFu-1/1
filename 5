@@ -1,0 +1,31 @@
+using System;
+class HelloWorld {
+  static void Main() {
+    System.Console.OutputEncoding = System.Text.Encoding.UTF8;
+    Console.WriteLine("Введите число,которое соответствуeт цифре класса ");
+    int day = int.Parse(Console.ReadLine());
+    switch(day){
+      case 1:
+      case 2:
+      case 3:
+      case 4:
+        Console.WriteLine("Начальная школа");
+        break;
+      case 5:
+      case 6:
+      case 7:
+      case 8:
+      case 9:
+        Console.WriteLine("Средняя школа");
+        break;
+      case 10:
+      case 11:
+        Console.WriteLine("Старшая школа");
+        break;
+      default:
+        Console.WriteLine("Данного класса не существует");
+        break;
+      
+    }
+  }
+}
