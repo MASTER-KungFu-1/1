@@ -14,9 +14,7 @@ namespace vsvode
                 Console.WriteLine($"{x} * {i} = {x * i}");
             }
             Console.WriteLine();
-        }
-
-        Console.ReadLine();
+        }       
         
     }
     }
