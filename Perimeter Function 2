@@ -1,0 +1,20 @@
+using System;
+namespace Rextester
+{
+   
+        public class Program
+    {  
+    static int Perimeter(int a,int b, int c)
+    {
+       var p = a+b+c  ;
+        return p;
+    }
+        public static void Main(string[] args)
+        {
+        var n =  int.Parse(Console.ReadLine());
+        var m =  int.Parse(Console.ReadLine());
+        var d =  int.Parse(Console.ReadLine());
+            Console.WriteLine(Perimeter(n,m,d));
+        }
+    }
+}
